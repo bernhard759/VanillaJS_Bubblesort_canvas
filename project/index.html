@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble sort</title>
+    <script type="module" src="js/sort.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
+<body>
+    <h1 class="title">Bubblesort visualisation</h1>
+    <div class="controls">
+        <button class="button is-primary start-btn">Start animation</button>
+        <div class="is-flex is-justify-content-center is-align-content-center" style="gap: 1em">
+            <label for="animation-slider">Animation speed</label>
+            <input title="Animation speed slider" id="animation-slider" class="animation-slider" type="range" min="1"
+                max="100" value="50" class="slider">
+        </div>
+    </div>
+    <div class="canvas-container">
+        <canvas class="sorting"></canvas>
+    </div>
+</body>
+
+</html>

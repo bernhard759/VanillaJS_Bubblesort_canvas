@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto !important;
+}
+
+.canvas-container {
+  padding: 1em;
+  width: 100%;
+}
+
+canvas.sorting {
+  width: 100%;
+  aspect-ratio: 2/1;
+  background-color: rgba(0, 0, 0, 0.05);
+  min-width: 300px;
+}
+
+.controls {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.controls .animation-slider {
+  accent-color: #00d1b2;
+}
